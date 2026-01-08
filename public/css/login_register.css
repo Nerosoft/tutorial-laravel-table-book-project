@@ -1,0 +1,29 @@
+body{
+    background-image: url('../../img/login-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.login{
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 15px;
+    width: 55%;
+}
+
+h4{
+    text-align: center;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.mybtn{
+    margin-top: 10px;
+}
+.flexCheck:checked {
+    background-color: #FF9800;
+    border-color: #FF9800;
+}
